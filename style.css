@@ -1,0 +1,48 @@
+.header {
+  text-align: center;
+}
+
+.section-center {
+  width: 900px;
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+
+}
+
+.btn-container {
+   width: 890px;
+   margin: 0 auto;
+   padding: 30px;
+
+}
+
+.filter-btn {
+  padding: 15px 25px;
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: white;
+   color: black;
+   border: 2px solid #555555;
+   border-radius: 3px;
+}
+
+.filter-btn:hover {
+  background-color: #555555;
+ color: white;
+}
+
+
+.menu-item {
+  border: 3px solid #e7e7e7;
+  display: grid;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.menu-item img {
+  width: 100%;
+
+}
